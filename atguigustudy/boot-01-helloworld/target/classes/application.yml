@@ -1,0 +1,8 @@
+server:
+  port: 8888
+
+myuser:
+  name: 周逸秋
+  age: 18
+
+debug: false

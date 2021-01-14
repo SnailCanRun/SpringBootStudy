@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="/user/zyq/age/18?sex=man&height=170&height=180">/user/zyq/age/18?sex=man</a>
+<form action="/user" method="get">
+    <input value="REST-GET" type="submit">
+</form>
+
+<form action="/user" method="post">
+    测试@RequestBody获取数据 <br/>
+    用户名：<input type="text" name="userName"/> <br/>
+    邮箱：<input type="text" name="email"/> <br/>
+    <input value="REST-POST" type="submit">
+</form>
+
+<form action="/user" method="post">
+    <input name="_mymethod" value="delete" type="hidden">
+    <input value="REST-DELETE" type="submit">
+</form>
+
+<form action="/user" method="post">
+    <input name="_mymethod" value="put" type="hidden">
+    <input value="REST-PUT" type="submit">
+</form>
+
+</body>
+</html>
